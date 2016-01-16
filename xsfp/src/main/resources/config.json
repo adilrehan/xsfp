@@ -1,0 +1,26 @@
+{
+  "xsfPath" : "C:/Temp/xsf",
+  "xsfPathAchieve" : "C:/Temp/XSF/processed",
+  "xsfTableName" : "XSF_FILE",
+  "jdbcDriver" : "oracle.jdbc.driver.OracleDriver",
+  "dbUrl" : "jdbc:oracle:thin:@192.168.2.242:1521:ora12c",
+  "dbUser" : "appuser",
+  "dbPassword" : "WhiteHorse9",
+  "threadPoolSize" : 10,
+  "webDeploy" : "src/main/resources/deploy/",
+  "webPort" : 8080,
+  "webSsl" : true,    
+  "probes" : [ {
+    "hostName" : "ucmdb.demo.hpadvantageinc.com",
+    "udPath" : "c$/hp/ucmdb/dataflowprobe",
+    "domain" : "",
+    "userName" : "Administrator",
+    "password" : "[ENC]dFt+3PMJeJB5b596RytjDg=="
+  }, {
+    "hostName" : "192.168.2.104",
+    "udPath" : "c$/hp/ucmdb/dataflowprobe",
+    "domain" : "",
+    "userName" : "Administrator",
+    "password" : "[ENC]dFt+3PMJeJB5b596RytjDg=="
+  } ]
+}

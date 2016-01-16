@@ -1,0 +1,25 @@
+{
+  "xsfPath" : "C:/Temp/xsf",
+  "processedXsfPath" : "C:/Temp/XSF/processed",
+  "jdbcDriver" : "org.postgresql.Driver",
+  "dbUrl" : "jdbc:postgresql://localhost:5439/test",
+  "dbUser" : "rehan",
+  "dbPassword" : "[ENC]9d/d16oL3bNN75qwQ9Jl5g==",
+  "threadPoolSize" : 10,
+  "webDeploy" : "src/main/resources/deploy/",
+  "webPort" : 8080,
+  "webSsl" : true,    
+  "probes" : [ {
+    "hostName" : "ucmdb.demo.hpadvantageinc.com",
+    "udPath" : "c$/hp/ucmdb/dataflowprobe",
+    "domain" : "",
+    "userName" : "Administrator",
+    "password" : "[ENC]dFt+3PMJeJB5b596RytjDg=="
+  }, {
+    "hostName" : "192.168.2.104",
+    "udPath" : "c$/hp/ucmdb/dataflowprobe",
+    "domain" : "",
+    "userName" : "Administrator",
+    "password" : "[ENC]dFt+3PMJeJB5b596RytjDg=="
+  } ]
+}

@@ -1,0 +1,1 @@
+java -Dlog4j.configuration=conf/log4j.properties -cp "./*;dependency/*" xsf.main.Main
