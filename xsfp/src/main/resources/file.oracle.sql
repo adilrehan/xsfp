@@ -1,3 +1,4 @@
+# Datavase Structure
 drop table XSF_FILE;
 
 create table XSF_FILE(
