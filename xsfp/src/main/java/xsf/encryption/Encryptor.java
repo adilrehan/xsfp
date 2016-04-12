@@ -52,7 +52,7 @@ public class Encryptor {
 	}
 	
     public static void main(String[] args) {
-        //System.out.println(decrypt(key1, key2, encrypt(key1, key2, "WhiteHorse9")));
-        System.out.println("****" + encrypt("WhiteHorse9") + "****");
+        //System.out.println(decrypt(key1, key2, encrypt(key1, key2, "*****")));
+        System.out.println("****" + encrypt("ABCDABCD") + "****");
     }
 }
